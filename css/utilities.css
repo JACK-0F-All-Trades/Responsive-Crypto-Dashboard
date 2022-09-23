@@ -1,0 +1,108 @@
+/* Some variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+:root{
+    --white-color: #ffffff;
+    --light-color: #f0eff5;
+    --light-grey-color: #86848c;
+    --dark-grey-color: #56555e;
+    --dark-color: #27282f;
+    --primary-color: rgb(71,7,234);
+    --success-color: rgb(34, 202, 75);
+    --danger-color: rgb(255, 67, 54);
+    --warning-color: rgb(234, 181, 7);
+    --purple-color: rgb(160, 99, 245);
+    
+    --primary-light-color: rgba(71, 7, 234, 0.2);
+    --success-light-color: rgba(34, 202, 75, 0.2);
+    --danger-light-color: rgba(255, 67, 54, 0.2);
+    --purple-light-color: rgba(160, 99, 245, 0.2);
+
+    --card-padding: 1.6rem;
+    --padding-1: 1rem;
+    --padding-2: 8px;
+
+    --card-border-radius: 1.6rem;
+    --border-radius-1: 1rem;
+    --border-radius-2: 6px;
+
+}
+
+.dark-theme{
+    --white-color: #131316;
+    --light-color: #23232a;
+    --dark-color: #dddd;
+    --dark-grey-color: #adacb5;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+}
+
+body{
+    background-color: var(--light-color);
+    font-family:  'Poppins', sans-serif;
+    width: 100%;
+}
+
+.small-color{
+    color: var(--light-grey-color);
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.white-color{
+    color: var(--white-color);
+}
+.success-color{
+    color: var(--success-color);
+}
+.danger-color{
+    color: var(--danger-color);
+}
+
+.light-color{
+    color: var(--light-color);
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-success{
+    background-color: var(--success-color);
+}
+
+.bg-danger{
+    background-color: var(--danger-color);
+}
+
+.dark-grey-color{
+    color: var(--dark-grey-color);
+}
+
+.bg-purple{
+    background-color: var(--purple-color);
+}
+
+.bg-dark{
+    background-color: var(--dark-color);
+}
+
+.bg-gold{
+    background-color: gold;
+}
+
+.dark-color{
+    color:var(--dark-color);
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width:415px) {
+    header .container{
+        width: 100vw;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        background: var(--white-color);
+        border-radius: var(--card-border-radius);
+        padding: var(--card-padding);
+        
+    }
+    .middle .assets{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100vw;
+        
+    }
+    .middle .assets .card{
+        min-width:100vw;
+    }
+}
